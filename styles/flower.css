@@ -182,10 +182,11 @@ main section {
     width: 1920px;
 }
 
-.sales-content{
+.sales-content {
     margin-left: 280px;
     margin-top: 10px;
 }
+
 .sales-head {
     color: #272727;
     text-align: center;
@@ -210,14 +211,24 @@ main section {
 }
 
 ul {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     list-style-type: none;
     gap: 10px;
-    margin-left: 180px;
+    margin-left: 210px;
 
 }
 
+.deals {
+    background-image: url(../flower-asset/bck-img.png);
+    background-repeat: no-repeat;
+    width: 2400px;
+    height: 800px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-left: 12%;
+
+}
 
 .deal-head {
     color: #272727;
@@ -226,6 +237,8 @@ ul {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    padding-right: 1000px;
+    padding-top: 100px;
 }
 
 .deal-des {
@@ -235,10 +248,11 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    padding-right: 1000px;
 }
 
 .placeholder {
-    width: 700px;
+    width: 650px;
     height: 64px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -249,6 +263,22 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 5px%;
-    
+    margin-left: 300px;
+
+}
+
+.btn-two {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-left: 10px;
+    border: 0px;
 }
